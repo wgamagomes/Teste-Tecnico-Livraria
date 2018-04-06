@@ -30,7 +30,11 @@
     
 });
 
-
+/**
+ * Função responsável por personalizar o cabeçalho
+ * @param {any} icon
+ * @param {any} title
+ */
 function personalizarCabecalho(icon, title)
 {
     $("#breadcrumb-id").text(title)

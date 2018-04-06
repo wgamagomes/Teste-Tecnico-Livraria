@@ -1,13 +1,15 @@
 ﻿using Livraria.Domain.Entities;
 using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Linq.Expressions;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace Livraria.Domain.Interfaces.Services
 {
+    /// <summary>
+    /// IServicoGenerico
+    /// </summary>
+    /// <typeparam name="T"></typeparam>
     public interface IServicoGenerico<T> where T : EntidadeBase
     {
         IList<T> Listar(Expression<Func<T, bool>> filtro, params Expression<Func<T, object>>[] include);

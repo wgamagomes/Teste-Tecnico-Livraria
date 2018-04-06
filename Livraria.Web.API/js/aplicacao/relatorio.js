@@ -12,16 +12,14 @@ function listarTodosLivros() {
         },
         error: function (result) {
             if (result.status === 500)
-                exibirToast('Erro interno ao servidor ao tentar listar os livros!', 'error');
+                exibirToastr('Erro interno ao servidor ao tentar listar os livros!', 'error');
         }
-    });
-
-
+    });    
 }
 
 
 /**
- * Função responsável por mantar a grid de relatório de livros
+ * Função responsável por montar a grid de relatório de livros
  * @param {any} conteudo
  */
 function montarTabela(conteudo) {
@@ -105,11 +103,11 @@ function excluirLivro(id) {
         type: 'DELETE',
         success: function (result) {
             listarTodosLivros();
-            exibirToast('Livro excluído com sucesso!');
+            exibirToastr('Livro excluído com sucesso!');
         },
         error: function (result) {
             if (result.status === 500)
-                exibirToast('Erro interno ao servidor ao tentar excluir este livro!', 'error');
+                exibirToastr('Erro interno ao servidor ao tentar excluir este livro!', 'error');
         }
     });
 

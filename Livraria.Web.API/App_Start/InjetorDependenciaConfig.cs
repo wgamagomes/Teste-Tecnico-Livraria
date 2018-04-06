@@ -12,7 +12,7 @@ namespace Livraria.Web.API.App_Start
     public static class InjetorDependenciaConfig
     {
         /// <summary>
-        /// Initialize
+        /// Inicialização do injetor de dependencia
         /// </summary>
         public static void Initialize()
         {

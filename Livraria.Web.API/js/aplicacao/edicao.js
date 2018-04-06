@@ -14,7 +14,7 @@ function editarLivro(id) {
         },        
         error: function (result) {
             if (result.status === 500)
-                exibirToast('Erro interno ao servidor ao tentar obter este livro!', 'error');
+                exibirToastr('Erro interno ao servidor ao tentar obter este livro!', 'error');
         }
     });
 }
@@ -58,11 +58,11 @@ function submeterFormularioEdicao() {
         data: form.serialize(),
         success: function () {
             listarTodosLivros();
-            exibirToast('Livro ' + $('#titulo').val() + ' editado com sucesso!');
+            exibirToastr('Livro ' + $('#titulo').val() + ' editado com sucesso!');
         },        
         error: function (result) {
             if (result.status === 500)
-                exibirToast('Erro interno ao servidor ao tentar editar este livro!', 'error');
+                exibirToastr('Erro interno ao servidor ao tentar editar este livro!', 'error');
         }
     });    
 }

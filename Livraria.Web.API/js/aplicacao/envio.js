@@ -19,12 +19,12 @@ function submeterFormularioCadastro()
             success: function () {
                 $('#form-envio').each(function () {
                     this.reset();
-                    exibirToast('Livro cadastrado com sucesso!');
+                    exibirToastr('Livro cadastrado com sucesso!');
                 });
             },
             error: function (result) {
                 if (result.status === 500)
-                    exibirToast('Erro interno ao servidor ao tentar cadastrar este livro!', 'error');
+                    exibirToastr('Erro interno ao servidor ao tentar cadastrar este livro!', 'error');
             }
         });    
 }

@@ -1,6 +1,5 @@
 ﻿using System;
 
-
 namespace Livraria.Domain.Log
 {
     /// <summary>

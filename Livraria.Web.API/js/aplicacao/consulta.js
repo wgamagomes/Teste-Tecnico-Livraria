@@ -15,9 +15,9 @@ function consultar() {
         },
         error: function (result) {
             if (result.status === 500)
-                exibirToast('Erro interno ao servidor ao tentar buscar livro!', 'error');
+                exibirToastr('Erro interno ao servidor ao tentar buscar livro!', 'error');
             else (result.status === 404)
-            exibirToast('Livro não encontrado na base de dados!', 'wrn');
+            exibirToastr('Livro não encontrado na base de dados!', 'wrn');
         }
     });
 }
