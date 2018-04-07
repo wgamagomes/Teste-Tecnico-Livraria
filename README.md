@@ -6,10 +6,10 @@ Teste técnico realizado para HBSIS - https://hbsis.com.br/
 ### Esta solução contempla:
 1. Solução desenvolvida na plataforma .NET
 2. Web API
-3. Solução DDD
+3. Domain-driven design (DDD)
 4. ORM Entity Framework
-5. Framework de frontend JQuery e Bootstrap
-6. Injeção de dependência Simple injector
+5. Framework de frontend (JQuery e Bootstrap)
+6. Injeção de dependência (Simple injector)
 7. Inversão de controle (IoC) que abstrai as camadas com injeção de dependência 
 8. Aplicação separada em camadas
 9. Entidades de Domínio
