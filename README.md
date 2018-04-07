@@ -26,7 +26,7 @@ Teste técnico realizado para HBSIS - https://hbsis.com.br/
 
 1. Faça o download ou o clone do projeto  
 2. Faça a edição da conexão com banco no arquivo Web.config que encontra-se no projeto Livraria.Web.API
-3. No Package Manager Console selecione projeto padrão Livraria.DataAccess e execute o comando Update-Database
+3. No Package Manager Console selecione o projeto padrão Livraria.DataAccess e execute o comando (Update-Database)
 4. Mantenha-se conectado a internet pois algumas referências não estão locais por exemplo:
 src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.js"
 
