@@ -30,7 +30,7 @@ Teste técnico realizado para HBSIS - https://hbsis.com.br/
 4. Mantenha-se conectado a internet pois algumas referências não estão locais por exemplo:
 src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.js"
 
-### Scripts para consumo da Web API
+### Scripts e arquivos .html para consumo da Web API
 1. Index.html localizado na raiz do projeto Livraria.Web.API
 2. consulta.js, edicao.js, envio.js, notificacao.js, principal.js e relatorio.js localizados no subdiretótio js/aplicacao/
 do projeto Livraria.Web.API
