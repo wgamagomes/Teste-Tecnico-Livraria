@@ -4,7 +4,7 @@ Teste Técnico (Livraria)
 Teste técnico realizado para HBSIS - https://hbsis.com.br/
 
 ### Esta solução contempla:
-1. Solução desenvolvida na plataforma .NET
+1. Desenvolvimento na plataforma .NET
 2. Web API
 3. Domain-driven design (DDD)
 4. ORM Entity Framework
